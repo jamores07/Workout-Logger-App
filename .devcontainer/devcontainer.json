@@ -21,5 +21,11 @@
 	// "remoteUser": "root"
 
 	//Environment Variables
-	"runArgs": ["--env-file",".devcontainer/.env"]
+	"runArgs": [
+		"--env-file",
+		".devcontainer/.env"
+	],
+	"portsAttributes": {
+
+	}
 }
